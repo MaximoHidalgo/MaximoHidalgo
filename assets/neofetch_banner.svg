@@ -1,0 +1,112 @@
+<svg width="800" height="380" viewBox="0 0 800 380" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="380" rx="15" fill="#2d2d2d" />
+  
+  <defs>
+    <!-- Filtro Duotono Rojo/Blanco para la foto -->
+    <filter id="duotone-red">
+      <!-- Convertir a escala de grises -->
+      <feColorMatrix type="matrix" values="0.33 0.33 0.33 0 0
+                                           0.33 0.33 0.33 0 0
+                                           0.33 0.33 0.33 0 0
+                                           0 0 0 1 0" result="gray"/>
+      <!-- Mapear a colores Rojo y Blanco (fondo oscuro) -->
+      <feComponentTransfer color-interpolation-filters="sRGB">
+        <!-- Rojo #e03131 es rgb(224,49,49) = 0.87, 0.19, 0.19 -->
+        <feFuncR type="table" tableValues="0.17 0.87 0.97" />
+        <feFuncG type="table" tableValues="0.17 0.19 0.97" />
+        <feFuncB type="table" tableValues="0.17 0.19 0.97" />
+      </feComponentTransfer>
+    </filter>
+    <clipPath id="circle-clip">
+      <circle cx="190" cy="180" r="130" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .ascii { font-family: 'Courier New', Courier, monospace; font-size: 13px; font-weight: bold; white-space: pre; }
+    .red { fill: #e03131; }
+    .white { fill: #f8f9fa; }
+    .info-label { fill: #e03131; font-family: 'Courier New', Courier, monospace; font-size: 14px; font-weight: bold; }
+    .info-value { fill: #f8f9fa; font-family: 'Courier New', Courier, monospace; font-size: 14px; }
+    
+    @keyframes fadeAscii {
+      0%, 35% { opacity: 1; }
+      45%, 85% { opacity: 0; }
+      95%, 100% { opacity: 1; }
+    }
+    @keyframes fadePic {
+      0%, 35% { opacity: 0; }
+      45%, 85% { opacity: 1; }
+      95%, 100% { opacity: 0; }
+    }
+    .ubuntu-ascii { animation: fadeAscii 12s ease-in-out infinite; }
+    .profile-pic { animation: fadePic 12s ease-in-out infinite; filter: url(#duotone-red); }
+  </style>
+
+  <!-- Profile Picture (con filtro rojo y transicion) -->
+  <image href="https://github.com/MaximoHidalgo.png" x="60" y="50" width="260" height="260" clip-path="url(#circle-clip)" class="profile-pic" />
+
+  <!-- ASCII ART -->
+  <g class="ubuntu-ascii">
+    <text x="40" y="40" class="ascii red">            .-/+oossssoo+/-.               </text>
+    <text x="40" y="55" class="ascii red">        `:+ssssssssssssssssss+:`           </text>
+    <text x="40" y="70" class="ascii red">      -+ssssssssssssssssssyyssss+-         </text>
+    <text x="40" y="85" class="ascii red">    .ossssssssssssssssssdMMMNysssso.       </text>
+    <text x="40" y="100" class="ascii red">   /ssssssssssshdmmNNmmyNMMMMhssssss/      </text>
+    <text x="40" y="115" class="ascii red">  +ssssssssshmydMMMMMMMNddddyssssssss+     </text>
+    <text x="40" y="130" class="ascii red"> /sssssssshNMMMyhhyyyyhmNMMMNhssssssss/    </text>
+    <text x="40" y="145" class="ascii red">.ssssssssdMMMNhsssssssssshNMMMdssssssss.   </text>
+    <text x="40" y="160" class="ascii red">+sssshhhyNMMNyssssssssssssyNMMMysssssss+   </text>
+    <text x="40" y="175" class="ascii red">ossyNMMMNyMMhsssssssssssssshmmmhssssssso   </text>
+    <text x="40" y="190" class="ascii red">ossyNMMMNyMMhsssssssssssssshmmmhssssssso   </text>
+    <text x="40" y="205" class="ascii red">+sssshhhyNMMNyssssssssssssyNMMMysssssss+   </text>
+    <text x="40" y="220" class="ascii red">.ssssssssdMMMNhsssssssssshNMMMdssssssss.   </text>
+    <text x="40" y="235" class="ascii red"> /sssssssshNMMMyhhyyyyhdNMMMNhssssssss/    </text>
+    <text x="40" y="250" class="ascii red">  +sssssssssdmydMMMMMMMMddddyssssssss+     </text>
+    <text x="40" y="265" class="ascii red">   /ssssssssssshdmNNNNmyNMMMMhssssss/      </text>
+    <text x="40" y="280" class="ascii red">    .ossssssssssssssssssdMMMNysssso.       </text>
+    <text x="40" y="295" class="ascii red">      -+sssssssssssssssssyyyssss+-         </text>
+    <text x="40" y="310" class="ascii red">        `:+ssssssssssssssssss+:`           </text>
+    <text x="40" y="325" class="ascii red">            .-/+oossssoo+/-.               </text>
+
+    <!-- OVERLAY WHITE ASCII WHERE NEEDED -->
+    <text x="40" y="85" class="ascii"><tspan fill="transparent">    .ossssssssssssssssssd</tspan><tspan fill="#f8f9fa">MMMN</tspan><tspan fill="transparent">ysssso.       </tspan></text>
+    <text x="40" y="100" class="ascii"><tspan fill="transparent">   /ssssssssssshdmmNNmmy</tspan><tspan fill="#f8f9fa">NMMMM</tspan><tspan fill="transparent">hssssss/      </tspan></text>
+    <text x="40" y="115" class="ascii"><tspan fill="transparent">  +ssssssssshmyd</tspan><tspan fill="#f8f9fa">MMMMMMMN</tspan><tspan fill="transparent">ddddyssssssss+     </tspan></text>
+    <text x="40" y="130" class="ascii"><tspan fill="transparent"> /ssssssssh</tspan><tspan fill="#f8f9fa">NMMMy</tspan><tspan fill="transparent">hhyyyyh</tspan><tspan fill="#f8f9fa">mNMMMN</tspan><tspan fill="transparent">hssssssss/    </tspan></text>
+    <text x="40" y="145" class="ascii"><tspan fill="transparent">.ssssssssd</tspan><tspan fill="#f8f9fa">MMMN</tspan><tspan fill="transparent">hssssssssssh</tspan><tspan fill="#f8f9fa">NMMMd</tspan><tspan fill="transparent">ssssssss.   </tspan></text>
+    <text x="40" y="160" class="ascii"><tspan fill="transparent">+sssshhh</tspan><tspan fill="#f8f9fa">yNMMN</tspan><tspan fill="transparent">yssssssssssss</tspan><tspan fill="#f8f9fa">yNMMMy</tspan><tspan fill="transparent">sssssss+   </tspan></text>
+    <text x="40" y="175" class="ascii"><tspan fill="transparent">ossy</tspan><tspan fill="#f8f9fa">NMMMNyMM</tspan><tspan fill="transparent">hssssssssssssssh</tspan><tspan fill="#f8f9fa">mmmh</tspan><tspan fill="transparent">ssssssso   </tspan></text>
+    <text x="40" y="190" class="ascii"><tspan fill="transparent">ossy</tspan><tspan fill="#f8f9fa">NMMMNyMM</tspan><tspan fill="transparent">hssssssssssssssh</tspan><tspan fill="#f8f9fa">mmmh</tspan><tspan fill="transparent">ssssssso   </tspan></text>
+    <text x="40" y="205" class="ascii"><tspan fill="transparent">+sssshhh</tspan><tspan fill="#f8f9fa">yNMMN</tspan><tspan fill="transparent">yssssssssssss</tspan><tspan fill="#f8f9fa">yNMMMy</tspan><tspan fill="transparent">sssssss+   </tspan></text>
+    <text x="40" y="220" class="ascii"><tspan fill="transparent">.ssssssssd</tspan><tspan fill="#f8f9fa">MMMN</tspan><tspan fill="transparent">hssssssssssh</tspan><tspan fill="#f8f9fa">NMMMd</tspan><tspan fill="transparent">ssssssss.   </tspan></text>
+    <text x="40" y="235" class="ascii"><tspan fill="transparent"> /ssssssssh</tspan><tspan fill="#f8f9fa">NMMMy</tspan><tspan fill="transparent">hhyyyyhd</tspan><tspan fill="#f8f9fa">NMMMN</tspan><tspan fill="transparent">hssssssss/    </tspan></text>
+    <text x="40" y="250" class="ascii"><tspan fill="transparent">  +sssssssssdmyd</tspan><tspan fill="#f8f9fa">MMMMMMMM</tspan><tspan fill="transparent">ddddyssssssss+     </tspan></text>
+    <text x="40" y="265" class="ascii"><tspan fill="transparent">   /ssssssssssshdmNNNNmy</tspan><tspan fill="#f8f9fa">NMMMM</tspan><tspan fill="transparent">hssssss/      </tspan></text>
+    <text x="40" y="280" class="ascii"><tspan fill="transparent">    .ossssssssssssssssssd</tspan><tspan fill="#f8f9fa">MMMN</tspan><tspan fill="transparent">ysssso.       </tspan></text>
+  </g>
+
+  <!-- SYSTEM INFO -->
+  <g transform="translate(420, 60)">
+    <text x="0" y="0" class="info-label">maximohidalgo<tspan class="info-value">@</tspan>ubuntu</text>
+    <text x="0" y="15" class="info-value">-------------------------</text>
+    <text x="0" y="35"><tspan class="info-label">OS:</tspan> <tspan class="info-value">Ubuntu 24.04 LTS x86_64</tspan></text>
+    <text x="0" y="55"><tspan class="info-label">Role:</tspan> <tspan class="info-value">Backend Dev · OS Enthusiast</tspan></text>
+    <text x="0" y="75"><tspan class="info-label">Education:</tspan> <tspan class="info-value">Ing. en Sistemas (UTN-FRBA)</tspan></text>
+    <text x="0" y="95"><tspan class="info-label">Shell:</tspan> <tspan class="info-value">bash</tspan></text>
+    <text x="0" y="115"><tspan class="info-label">Languages:</tspan> <tspan class="info-value">C, C++, Java, JS, HTML, CSS</tspan></text>
+    <text x="0" y="135"><tspan class="info-label">Databases:</tspan> <tspan class="info-value">Postgres, Supabase</tspan></text>
+    <text x="0" y="155"><tspan class="info-label">Infra:</tspan> <tspan class="info-value">Docker, RabbitMQ, n8n</tspan></text>
+    <text x="0" y="175"><tspan class="info-label">Location:</tspan> <tspan class="info-value">Buenos Aires, Argentina</tspan></text>
+    
+    <!-- Color Bar (Red to Black) -->
+    <rect x="0" y="220" width="30" height="15" fill="#ff0000" />
+    <rect x="30" y="220" width="30" height="15" fill="#d90000" />
+    <rect x="60" y="220" width="30" height="15" fill="#b30000" />
+    <rect x="90" y="220" width="30" height="15" fill="#8c0000" />
+    <rect x="120" y="220" width="30" height="15" fill="#660000" />
+    <rect x="150" y="220" width="30" height="15" fill="#400000" />
+    <rect x="180" y="220" width="30" height="15" fill="#1a0000" />
+    <rect x="210" y="220" width="30" height="15" fill="#000000" />
+  </g>
+</svg>
