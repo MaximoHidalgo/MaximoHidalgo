@@ -6,6 +6,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=e03131&center=false&vCenter=true&width=800&lines=Amante+de+Linux,+Ubuntu+y+sus+distribuciones;Desarrollador+Backend+y+Analista+Funcional;Estudiante+de+Ing.+En+Sistemas+en+la+UTN-FRBA;Construyendo+Sistemas+Eficientes+y+Estructurados" alt="typing banner">
 </a>
 
+
 <br>
 
 **[ES]** Hola, soy Máximo Hidalgo, programador, desarrollador y estudiante de Ingeniería en Sistemas en la Universidad Tecnológica Nacional de Buenos Aires (UTN - FRBA). Actualmente me dedico a construir proyectos robustos, bien documentados y eficientes, con un fuerte enfoque en el backend y la arquitectura hexagonal. Desde el desarrollo de sistemas operativos en **C/C++**, hasta el despliegue de soluciones completas de proyectos utilizando **Java**, **Docker**, Bases de Datos y colas de mensajería como **RabbitMQ**. Disfruto desarrollando mis ideas a través de las herramientas que me da el código para expresarme.
@@ -58,6 +59,7 @@ Aún estoy estructurando mis repositorios públicos, ¡pero muy pronto vas a pod
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maximohidalgo/)
 [![Email Personal](https://img.shields.io/badge/Email_Personal-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maximojmhidalgo@gmail.com)
 [![Email UTN](https://img.shields.io/badge/Email_UTN-000000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mxhidalgo@frba.utn.edu.ar)
+[![Portfolio Web](https://img.shields.io/badge/%F0%9F%8C%8D_Mi_Portfolio_Web-e03131?style=for-the-badge&logoColor=white)](https://MaximoHidalgo.github.io)
 
 <br>
 
