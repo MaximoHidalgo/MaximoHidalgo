@@ -3,12 +3,16 @@
 # 👋 ¡Hola, soy Máximo JM Hidalgo! 💻
 
 <a href="https://github.com/MaximoHidalgo">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=e03131&center=false&vCenter=true&width=800&lines=Estudiante+de+Ing.+en+Sistemas+UTN-FRBA;Desarrollador+Backend+%26+Arquitectura;Amante+de+Linux+y+Sistemas+Operativos;Construyendo+sistemas+distribuidos+y+eficientes" alt="typing banner">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=e03131&center=false&vCenter=true&width=800&lines=Amante+de+Linux,+Ubuntu+y+sus+distribuciones;Desarrollador+Backend+y+Analista+Funcional;Estudiante+de+Ing.+En+Sistemas+en+la+UTN-FRBA;Construyendo+Sistemas+Eficientes+y+Estructurados" alt="typing banner">
 </a>
 
 <br>
 
-Actualmente me dedico a construir proyectos robustos y eficientes, con un fuerte enfoque en el backend y la arquitectura. Desde el desarrollo de sistemas operativos simulados (procesos concurrentes, arquitectura cliente-servidor) en **C/C++**, hasta el despliegue de soluciones completas utilizando **Java**, **Docker**, **Bases de Datos** y colas de mensajería como **RabbitMQ**. Disfruto manejándome por completo desde la terminal de mi Ubuntu.
+**[ES]** Hola, soy Máximo Hidalgo, programador, desarrollador y estudiante de Ingeniería en Sistemas en la Universidad Tecnológica Nacional de Buenos Aires (UTN - FRBA). Actualmente me dedico a construir proyectos robustos, bien documentados y eficientes, con un fuerte enfoque en el backend y la arquitectura hexagonal. Desde el desarrollo de sistemas operativos en **C/C++**, hasta el despliegue de soluciones completas de proyectos utilizando **Java**, **Docker**, Bases de Datos y colas de mensajería como **RabbitMQ**. Disfruto desarrollando mis ideas a través de las herramientas que me da el código para expresarme.
+
+**[EN]** Hi, I'm Máximo Hidalgo, a programmer, developer, and Information Systems Engineering student at the National Technological University of Buenos Aires (UTN - FRBA). I currently focus on building robust, well-documented, and efficient projects, with a strong emphasis on backend and hexagonal architecture. From developing operating systems in **C/C++**, to deploying complete solutions using **Java**, **Docker**, Databases, and message brokers like **RabbitMQ**. I enjoy bringing my ideas to life through the tools that code provides to express myself.
+
+<br>
 
 ## 🛠️ Tecnologías y Herramientas
 
@@ -65,5 +69,5 @@ Aún estoy estructurando mis repositorios públicos, ¡pero muy pronto vas a pod
 
 ---
 <div align="center">
-  <i>Construido con pasión y mucho código 💻</i>
+  <i>Si hay un muro, lo hacemos pedazos, y si no hay ningún camino, ¡lo abrimos con nuestras propias manos! 💥</i>
 </div>
