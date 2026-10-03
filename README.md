@@ -57,10 +57,10 @@ Aún estoy estructurando mis repositorios públicos, ¡pero muy pronto vas a pod
 
 <br>
 
-## 📊 Mis Estadísticas
+## 📊 Nivel de Atributos & Estadísticas (Auto-Update)
 <div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=MaximoHidalgo&show_icons=true&theme=transparent&hide_border=true&title_color=e03131&text_color=f8f9fa&icon_color=e03131&bg_color=2d2d2d" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaximoHidalgo&layout=compact&theme=transparent&hide_border=true&title_color=e03131&text_color=f8f9fa&icon_color=e03131&bg_color=2d2d2d" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaximoHidalgo&theme=transparent&hide_border=true&title_color=e03131&text_color=f8f9fa&icon_color=e03131&bg_color=2d2d2d&langs_count=5&custom_title=Experiencia%20por%20Tecnolog%C3%ADa" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MaximoHidalgo&show_icons=true&theme=transparent&hide_border=true&title_color=e03131&text_color=f8f9fa&icon_color=e03131&bg_color=2d2d2d" />
 </div>
 
 ---
